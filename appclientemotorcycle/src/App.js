@@ -4,7 +4,7 @@ import MotorcycleForm from './components/MotorcycleForm';
 import MotorcycleList from './components/MotorcycleList';
 import './App.css';
 
-const endpoint = 'http://localhost:3000/graphql';
+const endpoint = 'https://tallergrafql.onrender.com/graphql';
 
 const QUERY = gql`
   query {

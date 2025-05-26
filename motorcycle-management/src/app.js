@@ -13,8 +13,8 @@ setMotorcycleRoutes(app);
 
 // GraphQL endpoint
 app.use('/graphql', graphqlHTTP({
-    schema: motorcycleSchema,
-    graphiql: true
+  schema: motorcycleSchema,
+  graphiql: true
 }));
 
 const PORT = process.env.PORT || 3000;
